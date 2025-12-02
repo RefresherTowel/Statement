@@ -98,4 +98,4 @@ In short: it is licensed per developer seat, you can use it in unlimited games (
 
 ### Credits and third party assets
 
-Example projects for Statement may use third party art assets (for example, Kenney assets from kenney.nl). These are provided under their own licenses and are not covered by the Statement framework license. See the example project CREDITS.txt for details.
+Example projects for Statement may use third party art assets (for example, Kenney assets from kenney.nl). These are provided under their own licenses and are not covered by the Statement framework license. See the example project StatementCredits note for details.
