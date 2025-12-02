@@ -1,5 +1,7 @@
 # Statement
 
+![Statement icon](./statement_icon.png)
+
 #### Turn your states into a Statement.
 
 Statement is a lightweight but feature rich state machine framework for GameMaker, designed to be your new go to for state logic. Instead of juggling state variables and giant switch blocks, each object gets a clean Statement machine with named states and clear Enter / Update / Exit / Draw handlers. You can keep things simple, or turn on more advanced features when you need them.
