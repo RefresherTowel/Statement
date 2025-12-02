@@ -59,7 +59,9 @@ sm.AddState(_idle).AddState(_move);
 
 Then, in the Step event:
 
-```sm.Update();```
+```js
+sm.Update();
+```
 
 For more advanced examples (stacks, queues, payloads, exit locks, etc) see the full documentation.
 
@@ -75,7 +77,7 @@ https://refreshertowel.github.io/docs/statement/
 Statement is available on itch.io:
 
 Itch page:
-https://YOUR-ITCH-URL-HERE
+itch url here
 
 ### Bug reports and feature requests
 
@@ -84,13 +86,13 @@ The best place to report bugs or request features is the GitHub Issues page:
 Issues:
 https://github.com/RefresherTowel/Statement/issues
 
-If you are not comfortable using GitHub, you can also post in the **[Statement channel on the RefresherTowel Games Discord](https://discord.gg/8spFZdyvkb) and I can file an issue for you.
+If you are not comfortable using GitHub, you can also post in the [**Statement channel on the RefresherTowel Games Discord**](https://discord.gg/8spFZdyvkb) and I can file an issue for you.
 
 ### License
 
 Statement is a paid framework. The license terms for using it in your projects are in:
 
-LICENSE_Statement.txt
+[LICENSE_Statement.txt]()
 
 In short: it is licensed per developer seat, you can use it in unlimited games (free or commercial), but you cannot redistribute the framework source itself.
 
