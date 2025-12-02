@@ -92,7 +92,7 @@ If you are not comfortable using GitHub, you can also post in the [**Statement c
 
 Statement is a paid framework. The license terms for using it in your projects are in:
 
-[LICENSE_Statement.txt]()
+[LICENSE_Statement.txt](LICENSE_Statement.txt)
 
 In short: it is licensed per developer seat, you can use it in unlimited games (free or commercial), but you cannot redistribute the framework source itself.
 
