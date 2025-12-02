@@ -26,6 +26,7 @@ This repository is for the Statement framework landing page and issue tracker.
 ## Quick start
 
 A minimal example: one object, one machine, two states.
+
 ```js
 // Create Event
 sm = new Statement(self);
@@ -60,10 +61,13 @@ var _move = new StatementState(self, "Move")
 
 sm.AddState(_idle).AddState(_move);
 ```
+
 Then, in the Step event:
+
 ```js
 sm.Update();
 ```
+
 For more advanced examples (stacks, queues, payloads, exit locks, etc) see the full documentation.
 
 ## Documentation
