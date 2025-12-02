@@ -16,7 +16,7 @@ This repository is for the Statement framework landing page and issue tracker.
 - Named states with built in Enter / Update / Exit (and optional Draw) handlers.
 - Queued transitions so you can request a state change now and apply it safely later.
 - Declarative transitions that automatically switch when your condition is true.
-- State stacks (PushState / PopState) for pause menus, overlays, and temporary states.
+- State stacks (`PushState` / `PopState`) for pause menus, overlays, and temporary states.
 - Transition payloads to pass data into state changes without polluting globals.
 - Non interruptible (exit locked) states for things like stagger, attacks, and cutscenes.
 - Per machine pause flag so you can freeze logic without tearing anything down.
@@ -60,13 +60,10 @@ var _move = new StatementState(self, "Move")
 
 sm.AddState(_idle).AddState(_move);
 ```
-
 Then, in the Step event:
-
 ```js
 sm.Update();
 ```
-
 For more advanced examples (stacks, queues, payloads, exit locks, etc) see the full documentation.
 
 ## Documentation
@@ -88,7 +85,7 @@ itch url here
 The best place to report bugs or request features is the GitHub Issues page:
 
 Issues:
-https://github.com/RefresherTowel/Statement/issues
+[https://github.com/RefresherTowel/Statement/issues](https://github.com/RefresherTowel/Statement/issues)
 
 If you are not comfortable using GitHub, you can also post in the [**Statement channel on the RefresherTowel Games Discord**](https://discord.gg/8spFZdyvkb) and I can file an issue for you.
 
